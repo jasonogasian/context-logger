@@ -42,13 +42,13 @@ A simple example:
   logger.dir(context, obj);
 ```
 
-This will print:
+This will print (colors omitted):
     
-<span style="color:cyan">User0</span> - - <span style="color:darkgrey">[Mon, 02 Jun 2014 13:45:23 UTC -7]</span> This is a console message with color  
+  User0 - - [Mon, 02 Jun 2014 13:45:23 UTC -7] This is a console message with color  
 
-User0 - - [Mon, 02 Jun 2014 13:45:23 UTC -7] This is a console message without color (boring)  
+  User0 - - [Mon, 02 Jun 2014 13:45:23 UTC -7] This is a console message without color (boring)  
 
-<span style="color:cyan">User0</span> - - <span style="color:darkgrey">[Mon, 02 Jun 2014 13:45:23 UTC -7]</span> <span style="color:red">ERROR:</span>: This is an error message with color  
-<span style="color:cyan">User0</span> - - [Mon, 02 Jun 2014 13:45:23 UTC -7] ERROR: This is an error message without color (also boring)  
-User0 - - [Mon, 02 Jun 2014 13:45:23 UTC -7]  
-{ cat: 'meow', dog: 'woof' }
+  User0 - - [Mon, 02 Jun 2014 13:45:23 UTC -7] ERROR: This is an error message with color  
+  User0 - - [Mon, 02 Jun 2014 13:45:23 UTC -7] ERROR: This is an error message without color (also boring)  
+  User0 - - [Mon, 02 Jun 2014 13:45:23 UTC -7]  
+  { cat: 'meow', dog: 'woof' }
