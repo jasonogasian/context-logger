@@ -2,7 +2,8 @@ context-logger
 ==============
 
 This project is a simple NodeJS logger for adding timestamps and context to 
-console output.
+console output. The context can allow you to do such things as track a actions 
+of a visitor to your application trhough your logs.
 
 Installation:
   npm install context-logger
@@ -25,7 +26,10 @@ A simple example:
   logger.log(context, 'This is a console message with color');
 
   logger.color = false;
-  logger.log(context, 'This is a console message without color (boring)');
+  logger.log(context, 'Future messages will not have color (boring)');
+
+  logger.shortTimestamp = true;
+  logger.log(context, 'Future messages will have a short format timestamp');
 
 
   // Error messages
@@ -43,12 +47,15 @@ A simple example:
 ```
 
 This will print (colors omitted):
-    
-  User0 - - [Mon, 02 Jun 2014 13:45:23 UTC -7] This is a console message with color  
 
-  User0 - - [Mon, 02 Jun 2014 13:45:23 UTC -7] This is a console message without color (boring)  
 
-  User0 - - [Mon, 02 Jun 2014 13:45:23 UTC -7] ERROR: This is an error message with color  
-  User0 - - [Mon, 02 Jun 2014 13:45:23 UTC -7] ERROR: This is an error message without color (also boring)  
-  User0 - - [Mon, 02 Jun 2014 13:45:23 UTC -7]  
+  User0 - - [Mon, 02 Jun 2014 14:38:07 UTC -7] This is a console message with color
+
+  User0 - - [Mon, 02 Jun 2014 14:38:07 UTC -7] Future messages will not have color (boring)
+
+  User0 - - [06-02-2014 14:38:07] Future messages will have a short format timestamp
+
+  User0 - - [06-02-2014 14:38:07] ERROR: This is an error message with color
+  User0 - - [06-02-2014 14:38:07] ERROR: This is an error message without color (also boring)
+  User0 - - [06-02-2014 14:38:07]
   { cat: 'meow', dog: 'woof' }
