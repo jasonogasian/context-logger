@@ -1,5 +1,5 @@
 {
-  "name": "pretty-logs",
+  "name": "context-logger",
   "version": "0.0.0",
   "description": "A simple NodeJS logger for adding timestamps and context to console output",
   "main": "logger.js",
@@ -8,20 +8,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/jasonogasian/pretty-logs.git"
+    "url": "git://github.com/jasonogasian/context-logger.git"
   },
   "keywords": [
     "logger",
     "logging",
     "logs",
-    "pretty",
+    "context",
     "console",
     "output"
   ],
   "author": "Jason Ogasian",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jasonogasian/pretty-logs/issues"
+    "url": "https://github.com/jasonogasian/context-logger/issues"
   },
-  "homepage": "https://github.com/jasonogasian/pretty-logs"
+  "homepage": "https://github.com/jasonogasian/context-logger"
 }
