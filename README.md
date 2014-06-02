@@ -55,7 +55,7 @@ This will print (colors omitted):
 
   User0 - - [06-02-2014 14:38:07] Future messages will have a short format timestamp
 
-  User0 - - [06-02-2014 14:38:07] ERROR: This is an error message with color
-  User0 - - [06-02-2014 14:38:07] ERROR: This is an error message without color (also boring)
-  User0 - - [06-02-2014 14:38:07]
+  User0 - - [06-02-2014 14:38:07] ERROR: This is an error message with color  
+  User0 - - [06-02-2014 14:38:07] ERROR: This is an error message without color (also boring)  
+  User0 - - [06-02-2014 14:38:07]  
   { cat: 'meow', dog: 'woof' }
