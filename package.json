@@ -1,0 +1,27 @@
+{
+  "name": "pretty-logs",
+  "version": "0.0.0",
+  "description": "A simple NodeJS logger for adding timestamps and context to console output",
+  "main": "logger.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jasonogasian/pretty-logs.git"
+  },
+  "keywords": [
+    "logger",
+    "logging",
+    "logs",
+    "pretty",
+    "console",
+    "output"
+  ],
+  "author": "Jason Ogasian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jasonogasian/pretty-logs/issues"
+  },
+  "homepage": "https://github.com/jasonogasian/pretty-logs"
+}
