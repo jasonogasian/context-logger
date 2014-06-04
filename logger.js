@@ -60,6 +60,22 @@ function Logger(){
 
 
   /**
+   * Write a warning message to stdout with the given context
+   * @param  {String} breadCrumb String denoting the 'context' of this message
+   * @param  {String} msg        The warning message content
+   */
+  this.warn = function(breadCrumb, msg) {
+    var err = 'WARN: ';
+
+    if (this.color) {
+      err = err.yellow();
+    }
+
+    this.log(breadCrumb, err+msg);
+  }
+
+
+  /**
    * Write an error message to stdout with the given context
    * @param  {String} breadCrumb String denoting the 'context' of this message
    * @param  {String} msg        The error message content

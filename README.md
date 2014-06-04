@@ -32,8 +32,11 @@ A simple example:
   logger.log(context, 'Future messages will have a short format timestamp');
 
 
-  // Error messages
+  // Warning message
   logger.color = true;
+  logger.warn(context, 'This is a warning message with color');
+
+  // Error messages
   logger.error(context, 'This is an error message with color');
 
   logger.color = false;
