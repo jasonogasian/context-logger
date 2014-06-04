@@ -20,6 +20,7 @@ logger.color = true;
 logger.warn(context, 'This is a warning message with color');
 
 // Error messages
+logger.color = true;
 logger.error(context, 'This is an error message with color');
 
 logger.color = false;

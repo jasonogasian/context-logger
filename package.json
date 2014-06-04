@@ -1,6 +1,6 @@
 {
   "name": "context-logger",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A simple NodeJS logger for adding timestamps and context to console output",
   "main": "logger.js",
   "scripts": {
